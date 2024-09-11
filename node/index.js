@@ -9,4 +9,6 @@ app.listen(3001, () => {
   console.log('Listening on port 3001!');
 });
 
-app.get('/', (req, res) => {});
+app.get('/', (req, res) => {
+    res.send("Hello World!")
+});

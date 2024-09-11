@@ -1,14 +1,15 @@
-import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const fetchData = () => {
+    // Your implementaions
+  }
 
   return (
     <>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+        <button onClick={() => fetchData()}>
+          Fetch data
         </button>
       </div>
     </>
