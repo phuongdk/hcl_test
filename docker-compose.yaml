@@ -1,0 +1,30 @@
+version: '3'
+services:
+  react:
+    build:
+      context: ./react
+      dockerfile: Dockerfile
+    image: react-test
+    container_name: react-test
+    volumes:
+      - /app/node_modules
+    ports:
+      - "3000:3000"
+    networks:
+      - hcl-network
+  node:
+    build:
+      context: ./node
+      dockerfile: Dockerfile
+    image: node-test
+    container_name: node-test
+    volumes:
+      - ./node:/app
+      - /app/node_modules
+    ports:
+      - "3001:3001"
+    networks:
+      - hcl-network
+networks:
+  hcl-network:
+    driver: bridge

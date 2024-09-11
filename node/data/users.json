@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "John",
+        "age": 20,
+        "role": "Software Engineer",
+        "email": "john@example.com"
+    },
+    {
+        "id": 2,
+        "name": "Jesssica",
+        "age": 25,
+        "role": "Business Analyst",
+        "email": "jess@example.com"
+    },
+    {
+        "id": 3,
+        "name": "Haley",
+        "age": 30,
+        "role": "Tester",
+        "email": "haley@example.com"
+    },
+    {
+        "id": 4,
+        "name": "Peter",
+        "age": 40,
+        "role": "Head of Engineering",
+        "email": "peter@example.com"
+    },
+    {
+        "id": 5,
+        "name": "Nathan",
+        "age": 35,
+        "role": "AI Engineer",
+        "email": "nathan@example.com"
+    }
+]

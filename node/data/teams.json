@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "user_id": 1,
+        "name": "Team A"
+    },
+    {
+        "id": 2,
+        "user_id": 1,
+        "name": "Team B"
+    },
+    {
+        "id": 3,
+        "user_id": 2,
+        "name": "Team C"
+    },
+    {
+        "id": 4,
+        "user_id": 2,
+        "name": "Team D"
+    },
+    {
+        "id": 5,
+        "user_id": 3,
+        "name": "Team E"
+    },
+    {
+        "id": 6,
+        "user_id": 3,
+        "name": "Team F"
+    },
+    {
+        "id": 7,
+        "user_id": 4,
+        "name": "Team G"
+    },
+    {
+        "id": 8,
+        "user_id": 4,
+        "name": "Team H"
+    },
+    {
+        "id": 9,
+        "user_id": 5,
+        "name": "Team I"
+    },
+    {
+        "id": 10,
+        "user_id": 5,
+        "name": "Team K"
+    }
+]
