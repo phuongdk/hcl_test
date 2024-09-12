@@ -7,6 +7,7 @@ services:
     image: react-test
     container_name: react-test
     volumes:
+      - ./react:/app
       - /app/node_modules
     ports:
       - "3000:3000"
